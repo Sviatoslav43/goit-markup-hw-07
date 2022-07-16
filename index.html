@@ -72,7 +72,7 @@
       <section class="hero-block section">
         <div class="container">
           <h1 class="slogan">Эффективные решения для вашего бизнеса</h1>
-          <button class="main-btn" data-modal-open type="button">
+          <button class="main-btn button" data-modal-open type="button">
             Заказать услугу
           </button>
           <!-- Модальное окно -->
@@ -83,84 +83,82 @@
                   <use href="./images/icons.svg#icon-close"></use>
                 </svg>
               </button>
-              <div class="modal-form">
-                <p class="form-header">
-                  Оставьте свои данные, мы вам перезвоним
-                </p>
-                <form class="form-form">
-                  <p class="form-name">Имя</p>
-                  <label class="form-set">
-                    <span class="form-input-position">
-                      <input
-                        class="form-input"
-                        type="text"
-                        name="user-name"
-                        required
-                      />
-                      <svg class="form-icon" width="18px" height="18px">
-                        <use href="./images/icons.svg#form-person"></use>
-                      </svg>
-                    </span>
-                  </label>
-                </form>
-                <form class="form-form">
-                  <p class="form-name">Телефон</p>
-                  <label class="form-set">
-                    <span class="form-input-position">
-                      <input
-                        class="form-input"
-                        type="tel"
-                        name="user-phone"
-                        required
-                      />
-                      <svg class="form-icon" width="18px" height="18px">
-                        <use href="./images/icons.svg#form-phone"></use>
-                      </svg>
-                    </span>
-                  </label>
-                </form>
-                <form class="form-form">
-                  <p class="form-name">Почта</p>
-                  <label class="form-set">
-                    <span class="form-input-position">
-                      <input
-                        class="form-input"
-                        type="text"
-                        name="user-email"
-                        required
-                      />
-                      <svg class="form-icon" width="18px" height="18px">
-                        <use href="./images/icons.svg#form-email"></use>
-                      </svg>
-                    </span>
-                  </label>
-                </form>
-                <form class="form-form">
-                  <p class="form-name">Комментарий</p>
-                  <label>
-                    <textarea
-                      class="form-input form-feedback"
-                      name="user-feedback"
-                      cols="30"
-                      rows="10"
-                      placeholder="Введите текст"
-                    ></textarea>
-                  </label>
-                </form>
-                <form class="form-form1">
-                  <label class="checkbox-form">
-                    <input class="check-form-hidden" type="checkbox" />
-                    <svg class="form-icon-checked" width="16px" height="15px">
-                      <use href="./images/icons.svg#form-checked"></use>
+              <p class="form-header">Оставьте свои данные, мы вам перезвоним</p>
+              <form class="form-form">
+                <p class="form-name">Имя</p>
+                <label class="form-set">
+                  <span class="form-input-position">
+                    <input
+                      class="form-input"
+                      type="text"
+                      name="user-name"
+                      required
+                    />
+                    <svg class="form-icon" width="18px" height="18px">
+                      <use href="./images/icons.svg#form-person"></use>
                     </svg>
-                    <p class="form-agree">
-                      Соглашаюсь с рассылкой и принимаю
-                      <span class="form-agree-link">Условия договора</span>
-                    </p>
-                  </label>
-                </form>
-                <button class="form-submit-btn" type="submit">Отправить</button>
-              </div>
+                  </span>
+                </label>
+              </form>
+              <form class="form-form">
+                <p class="form-name">Телефон</p>
+                <label class="form-set">
+                  <span class="form-input-position">
+                    <input
+                      class="form-input"
+                      type="tel"
+                      name="user-phone"
+                      required
+                    />
+                    <svg class="form-icon" width="18px" height="18px">
+                      <use href="./images/icons.svg#form-phone"></use>
+                    </svg>
+                  </span>
+                </label>
+              </form>
+              <form class="form-form">
+                <p class="form-name">Почта</p>
+                <label class="form-set">
+                  <span class="form-input-position">
+                    <input
+                      class="form-input"
+                      type="text"
+                      name="user-email"
+                      required
+                    />
+                    <svg class="form-icon" width="18px" height="18px">
+                      <use href="./images/icons.svg#form-email"></use>
+                    </svg>
+                  </span>
+                </label>
+              </form>
+              <form class="form-form">
+                <p class="form-name">Комментарий</p>
+                <label>
+                  <textarea
+                    class="form-input form-feedback"
+                    name="user-feedback"
+                    cols="30"
+                    rows="10"
+                    placeholder="Введите текст"
+                  ></textarea>
+                </label>
+              </form>
+              <form class="form-check">
+                <label class="checkbox-form">
+                  <input class="check-form-hidden" type="checkbox" />
+                  <svg class="form-icon-checked" width="16px" height="15px">
+                    <use href="./images/icons.svg#form-checked"></use>
+                  </svg>
+                  <p class="form-agree">
+                    Соглашаюсь с рассылкой и принимаю
+                    <span class="form-agree-link">Условия договора</span>
+                  </p>
+                </label>
+              </form>
+              <button class="form-submit-btn button" type="submit">
+                Отправить
+              </button>
             </div>
           </div>
         </div>
@@ -225,8 +223,8 @@
       <section class="section section-example">
         <div class="container">
           <h2 class="title-caption">Чем мы занимаемся</h2>
-          <ul class="list list-example">
-            <li class="example-item">
+          <ul class="list card-list">
+            <li class="example-item card-item">
               <img
                 src="./images/img11.jpg"
                 alt="робота за ноутбуком"
@@ -235,7 +233,7 @@
               />
               <p class="example-item-caption">Десктопные приложения</p>
             </li>
-            <li class="example-item">
+            <li class="example-item card-item">
               <img
                 src="./images/img12.jpg"
                 alt="телефон в руках"
@@ -244,7 +242,7 @@
               />
               <p class="example-item-caption">Мобильные приложения</p>
             </li>
-            <li class="example-item">
+            <li class="example-item card-item">
               <img
                 src="./images/img13.jpg"
                 alt="планшет в руках"
@@ -257,11 +255,11 @@
         </div>
       </section>
       <!-- Секция Team -->
-      <section class="section-team section">
+      <section class="section section-team">
         <div class="container">
           <h2 class="title-caption">Наша команда</h2>
-          <ul class="list team-list">
-            <li class="member">
+          <ul class="list card-list">
+            <li class="member card-item">
               <img
                 src="./images/img21.jpg"
                 alt="Игорь Демьяненко"
@@ -271,8 +269,8 @@
               <div class="class-member-list">
                 <h3 class="member-name">Игорь Демьяненко</h3>
                 <p class="member-job">Product Designer</p>
-                <ul class="team-social-media">
-                  <li class="team-social">
+                <ul class="social-media">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -285,7 +283,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -298,7 +296,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -311,7 +309,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -327,7 +325,7 @@
                 </ul>
               </div>
             </li>
-            <li class="member">
+            <li class="member card-item">
               <img
                 src="./images/img22.jpg"
                 alt="Ольга Репина"
@@ -337,8 +335,8 @@
               <div class="class-member-list">
                 <h3 class="member-name">Ольга Репина</h3>
                 <p class="member-job">Frontend Developer</p>
-                <ul class="team-social-media">
-                  <li class="team-social">
+                <ul class="social-media">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -351,7 +349,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -364,7 +362,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -377,7 +375,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -393,7 +391,7 @@
                 </ul>
               </div>
             </li>
-            <li class="member">
+            <li class="member card-item">
               <img
                 src="./images/img23.jpg"
                 alt="Николай Тарасов"
@@ -403,8 +401,8 @@
               <div class="class-member-list">
                 <h3 class="member-name">Николай Тарасов</h3>
                 <p class="member-job">Marketing</p>
-                <ul class="team-social-media">
-                  <li class="team-social">
+                <ul class="social-media">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -417,7 +415,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -430,7 +428,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -443,7 +441,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -459,7 +457,7 @@
                 </ul>
               </div>
             </li>
-            <li class="member">
+            <li class="member card-item">
               <img
                 src="./images/img24.jpg"
                 alt="Михаил Ермаков"
@@ -469,8 +467,8 @@
               <div class="class-member-list">
                 <h3 class="member-name">Михаил Ермаков</h3>
                 <p class="member-job">UI Designer</p>
-                <ul class="team-social-media">
-                  <li class="team-social">
+                <ul class="social-media">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -483,7 +481,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -496,7 +494,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -509,7 +507,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-social">
+                  <li class="social-media-item">
                     <a
                       class="social-media-link"
                       href=""
@@ -532,43 +530,43 @@
       <section class="section">
         <div class="container">
           <h2 class="title-caption">Постоянные клиенты</h2>
-          <ul class="company-list">
-            <li class="company-item">
+          <ul class="list card-list">
+            <li class="company-item card-item">
               <a class="company-icon" href="">
                 <svg width="106px" height="60px">
                   <use href="./images/icons.svg#icon-company-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-item">
+            <li class="company-item card-item">
               <a class="company-icon" href="">
                 <svg width="106px" height="60px">
                   <use href="./images/icons.svg#icon-company-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-item">
+            <li class="company-item card-item">
               <a class="company-icon" href="">
                 <svg width="106px" height="60px">
                   <use href="./images/icons.svg#icon-company-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-item">
+            <li class="company-item card-item">
               <a class="company-icon" href="">
                 <svg width="106px" height="60px">
                   <use href="./images/icons.svg#icon-company-4"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-item">
+            <li class="company-item card-item">
               <a class="company-icon" href="">
                 <svg width="106px" height="60px">
                   <use href="./images/icons.svg#icon-company-5"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-item">
+            <li class="company-item card-item">
               <a class="company-icon" href="">
                 <svg width="106px" height="60px">
                   <use href="./images/icons.svg#icon-company-6"></use>
@@ -583,8 +581,8 @@
     <footer class="footer-description">
       <div class="container footer-section">
         <div class="footer-container">
-          <a class="logo logo-footer" href="./index.html"
-            >Web<span class="studio-footer">Studio</span></a
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-footer">Studio</span></a
           >
           <address class="footer-address">
             <a
@@ -602,10 +600,10 @@
             >
           </address>
         </div>
-        <div class="footer-div">
+        <div class="footer-container footer-div">
           <h2 class="footer-str">присоединяйтесь</h2>
-          <ul class="team-social-media footer-list">
-            <li class="team-social footer-icon">
+          <ul class="social-media">
+            <li class="social-media-item footer-icon">
               <a
                 class="social-media-link footer-media"
                 href=""
@@ -618,7 +616,7 @@
                 </svg>
               </a>
             </li>
-            <li class="team-social footer-icon">
+            <li class="social-media-item footer-icon">
               <a
                 class="social-media-link footer-media"
                 href=""
@@ -631,7 +629,7 @@
                 </svg>
               </a>
             </li>
-            <li class="team-social footer-icon">
+            <li class="social-media-item footer-icon">
               <a
                 class="social-media-link footer-media"
                 href=""
@@ -644,7 +642,7 @@
                 </svg>
               </a>
             </li>
-            <li class="team-social footer-icon">
+            <li class="social-media-item footer-icon">
               <a
                 class="social-media-link footer-media"
                 href=""
@@ -659,16 +657,16 @@
             </li>
           </ul>
         </div>
-        <div class="footer-div footer-div-subcribe">
+        <div class="footer-container footer-subcribe">
           <h2 class="footer-str">Подпишитесь на рассылку</h2>
-          <div class="footer-form-section">
+          <div class="footer-section">
             <form>
               <label>
                 <input class="footer-form" type="text" placeholder="E-mail" />
               </label>
             </form>
-            <button class="footer-btn" type="button">
-              <span class="footer-btn-desc">Подписаться</span>
+            <button class="footer-btn button" type="button">
+              <span>Подписаться</span>
               <svg class="footer-telegram" wigth="24px" height="24px">
                 <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
