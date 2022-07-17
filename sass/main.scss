@@ -1,0 +1,52 @@
+// utils styles
+@import "./utils/vars";
+
+// base styles
+@import "./base/common";
+@import "./base/reset";
+
+// components styles
+@import "./components/button";
+@import "./components/container";
+@import "./components/section";
+@import "./components/social-media";
+@import "./components/flex-basis";
+@import "./components/backdrop";
+@import "./components/form-agree";
+@import "./components/form-checkbox";
+@import "./components/form-icon";
+@import "./components/forms";
+@import "./components/modal";
+@import "./components/visually-hidden";
+@import "./components/about";
+@import "./components/member";
+@import "./components/company";
+@import "./components/example";
+@import "./components/footer-description";
+@import "./components/footer-contact";
+@import "./components/footer-title";
+@import "./components/footer-form";
+@import "./components/footer-btn";
+@import "./components/portfolio-btn.scss";
+@import "./components/portfolio-example";
+@import "./components/portfolio-overflow";
+@import "./components/example-text";
+
+
+
+
+
+// layouts styles
+@import "./layouts/logo";
+@import "./layouts/header";
+@import "./layouts/header-contact";
+@import "./layouts/slogan";
+@import "./layouts/form-submit-btn";
+@import "./layouts/close-btn";
+@import "./layouts/button-style";
+@import "./layouts/about-section";
+@import "./layouts/title";
+@import "./layouts/example";
+@import "./layouts/team-section";
+@import "./layouts/logo-footer";
+@import "./layouts/footer-list";
