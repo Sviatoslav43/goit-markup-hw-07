@@ -1,18 +1,9 @@
-.form_header {
-    font-family: var(--main-fonts);
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    color: var(--secondary-txt-cl);
-    margin: 0;
-    margin-bottom: 12px;
-}
 
-.form_form {
+.form {
     margin-top: 10px;
 }
 
-.form_name {
+.form__name {
     font-family: var(--main-fonts);
     font-weight: 400;
     font-size: 12px;
@@ -22,17 +13,17 @@
     margin-bottom: 4px;
 }
 
-.form_set {
+.form__set {
     display: block;
     width: 448px;
     height: 40px;
 }
 
-.form_position {
+.form__position {
     position: relative;
 }
 
-.form_input {
+.form__input {
     display: block;
     width: 448px;
     height: 40px;
@@ -53,7 +44,7 @@
     }
 }
 
-.form_feedback {
+.form__feedback {
     width: 448px;
     height: 120px;
     resize: none;

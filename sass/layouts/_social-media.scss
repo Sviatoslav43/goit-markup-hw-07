@@ -6,11 +6,11 @@
     align-items: center;
     justify-content: center;
 }
-.social-media_item:not(:last-child) {
+.social-media__item:not(:last-child) {
     margin-right: 10px;
 }
 
-.social-media_link {
+.social-media__link {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,25 +1,25 @@
-.footer_description {
+.footer__description {
     background-color: var(--secondary-bg-cl);
     font-style: normal;
     padding-top: 64px;
     padding-bottom: 64px;
 }
 
-.footer_section {
+.footer__section {
     display: flex;
 }
 
-.footer_container {
+.footer__container {
     display: flex;
     flex-direction: column;
 }
 
-.footer_div {
+.footer__div {
     padding-left: 70px;
     padding-top: 10px;
 }
 
-.footer_subcribe {
+.footer__subcribe {
     padding: 0;
     padding-top: 10px;
     margin-right: 0;

@@ -7,12 +7,12 @@
     fill: var(--secondary-txt-cl);
     transform: translateY(-50%);
 
-    .form_input:focus-within+& {
+    .form__input:focus-within+& {
         fill: var(--blue-color);
     }
 
-    .form_input:focus+&,
-    .form_input:hover+& {
+    .form__input:focus+&,
+    .form__input:hover+& {
         fill: var(--blue-color);
     }
 }

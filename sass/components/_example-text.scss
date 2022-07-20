@@ -1,13 +1,8 @@
-.example_img {
-    position: relative;
-    overflow: hidden;
-}
-
-.example_text {
+.example__text {
     padding: 20px 23px;
 }
 
-.example_title {
+.example__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -18,7 +13,7 @@
     margin-bottom: 4px;
 }
 
-.example_subtitle {
+.example__subtitle {
     font-size: 16px;
     line-height: 1.87;
     color: var(--accent-txt-cl);

@@ -9,13 +9,12 @@
 @import "./components/button";
 @import "./components/section";
 @import "./components/container";
-@import "./components/social-media";
 @import "./components/flex-basis";
 @import "./components/backdrop";
-@import "./components/form-agree";
-@import "./components/form-checkbox";
-@import "./components/form-icon";
-@import "./components/forms";
+@import "./components/form/form-agree";
+@import "./components/form/form-checkbox";
+@import "./components/form/form-icon";
+@import "./components/form/forms";
 @import "./components/modal";
 @import "./components/visually-hidden";
 @import "./components/about";
@@ -43,6 +42,7 @@
 @import "./layouts/slogan";
 @import "./layouts/form-submit-btn";
 @import "./layouts/close-btn";
+@import "./layouts/social-media";
 @import "./layouts/button-style";
 @import "./layouts/about-section";
 @import "./layouts/title";
