@@ -1,13 +1,14 @@
 .example__text {
-    padding: 20px 23px;
+    padding: 20px 24px;
 }
 
 .example__title {
+    display: flex;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     color: var(--secondary-txt-cl);
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
     text-decoration: none;
     margin: 0px;
     margin-bottom: 4px;

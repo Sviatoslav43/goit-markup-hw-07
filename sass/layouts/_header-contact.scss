@@ -11,12 +11,13 @@
     align-items: center;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: var(--accent-txt-cl)
+    color: var(--accent-txt-cl);
+    
+    &:hover {
+        color: var(--blue-color);
+    }
 }
 
-.list-contact:hover {
-    color: var(--blue-color);
-}
 
 .header-icon {
     fill: currentColor;

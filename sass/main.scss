@@ -1,5 +1,6 @@
 // utils styles
 @import "./utils/vars";
+@import "./utils/mixin";
 
 // base styles
 @import "./base/common";
@@ -7,7 +8,6 @@
 
 // components styles
 @import "./components/button";
-@import "./components/section";
 @import "./components/container";
 @import "./components/flex-basis";
 @import "./components/backdrop";
@@ -30,6 +30,7 @@
 @import "./components/portfolio-example";
 @import "./components/portfolio-overflow";
 @import "./components/example-text";
+@import "./components/company-section";
 
 
 
